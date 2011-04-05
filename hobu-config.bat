@@ -3,14 +3,14 @@
 set G="NMake Makefiles"
 REM set G="Visual Studio 9 2008"
 REM set G="Visual Studio 10"
-set LIBLAS=D:\liblas
+set LIBLAS=D:\liblas-1.6
 set OSGEO4W=C:\OSGeo4W
 set BOOST=D:\boost\boost_1_44
 set ORACLE_HOME=%OSGEO4W%
 set LASZIP_ROOT=d:\laszip
-set BUILD_TYPE=RelWithDebInfo
+REM set BUILD_TYPE=RelWithDebInfo
 REM set BUILD_TYPE=Debug
-REM set BUILD_TYPE=Release
+set BUILD_TYPE=Release
 
 set PATH=%OSGEO4W%\bin;%PATH%
 
